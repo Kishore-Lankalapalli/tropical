@@ -1,0 +1,90 @@
+.tropical-adventures-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  padding: 10px;
+}
+@media screen and (min-width: 790px) {
+  .tropical-adventures-container {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .tropical-adventures-container {
+    justify-content: space-around;
+  }
+}
+/* student details container second div */
+.student-details-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+.student-card-container {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 9px;
+  box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.75);
+  height: 100px;
+  width: 300px;
+  margin-bottom: 40px;
+}
+
+.student-image {
+  height: 70px;
+  width: 70px;
+  border-radius: 40px;
+  margin-right: 10px;
+}
+.student-name {
+  font-size: 15px;
+  color: #000000;
+  font-family: 'Roboto';
+}
+.student-description {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #000000;
+  margin-top: 0px;
+}
+/* tropical description container */
+.tropical-adventures-description-container {
+  display: flex;
+  flex-direction: column;
+}
+.tropical-adventures-heading-text {
+  font-family: 'Roboto';
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: bold;
+
+  color: #000000;
+}
+.for-students-span-text {
+  font-weight: normal;
+}
+.student-vacation-text {
+  font-family: 'Inter';
+  font-size: 20px;
+  color: #000000;
+  margin-top: 0px;
+}
+.description-list-container {
+  font-family: 'Roboto';
+  font-size: 13px;
+  color: #000000;
+}
+.explore-more-button {
+  height: 40px;
+  width: 140px;
+  border-width: 0px;
+  border-radius: 17px;
+  background-color: #f27a44;
+  color: #ffffff;
+}

@@ -1,0 +1,146 @@
+.header-container {
+  width: 100%;
+  height: 8vh;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .header-container {
+    justify-content: space-around;
+    padding: 10px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header-container {
+    height: 12vh;
+    justify-content: space-around;
+  }
+}
+.nav-items-list-container {
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #000;
+  border-radius: 7px;
+  height: 160px;
+  width: 190px;
+  padding: 15px;
+  background-color: #f8f1d3;
+}
+
+@media screen and (min-width: 576px) {
+  .nav-items-list-container {
+    display: none;
+  }
+}
+li {
+  font-family: 'Inter';
+  font-size: 17px;
+  color: #262626;
+  margin-bottom: 8px;
+  font-weight: bolder;
+}
+@media screen and (min-width: 576px) {
+  li {
+    margin-right: 13px;
+    font-size: 15px;
+    font-family: 'Inter';
+  }
+}
+
+@media screen and (min-width: 768px) {
+  li {
+    font-size: 18px;
+    line-height: 19.36px;
+    margin-right: 15px;
+  }
+}
+.hover::li {
+  background-color: red;
+}
+.nav-button {
+  border: none;
+  background-color: transparent;
+}
+@media screen and (min-width: 768px) {
+  .nav-button {
+    display: none;
+  }
+}
+.menu-icon {
+  height: 30px;
+  width: 30px;
+}
+
+@media screen and (min-width: 576px) {
+  .menu-icon {
+    display: none;
+  }
+}
+.nav-offers-courses-button-container {
+  display: flex;
+  align-items: center;
+}
+.courses-button {
+  width: 67px;
+  height: 30px;
+  background-color: #f27a44;
+  border-radius: 30px;
+  border-width: 0px;
+  color: #fff;
+  font-size: 10px;
+}
+
+@media screen and (min-width: 576px) {
+  .courses-button {
+    height: 40px;
+    width: 90px;
+    font-size: 13px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .courses-button {
+    height: 48px;
+    width: 100px;
+    font-size: 15px;
+  }
+}
+.offers-text {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #7d7d7d;
+  margin-right: 8px;
+}
+
+@media screen and (min-width: 576px) {
+  .offers-text {
+    font-size: 17px;
+    margin-right: 11px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .offers-text {
+    font-size: 20px;
+  }
+}
+.large-device-nav-items-list-container {
+  display: none;
+}
+@media screen and (min-width: 576px) {
+  .large-device-nav-items-list-container {
+    display: block;
+    list-style-type: none;
+    padding-left: 0px;
+    display: flex;
+    flex-direction: row;
+  }
+}

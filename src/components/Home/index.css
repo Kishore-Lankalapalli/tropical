@@ -1,0 +1,145 @@
+.home-container {
+  height: 90vh;
+  background-color: #f8f1d3;
+  padding: 45px 20px 0px 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .home-container {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 90px 55px 0px 55px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .home-container {
+    /* padding: 112px 110px 0px 110px; */
+    justify-content: space-around;
+  }
+}
+.profile-image {
+  height: 340px;
+  width: 80%;
+  align-self: center;
+  margin-top: 30px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1000px) {
+  .profile-image {
+    width: 200px;
+    align-self: flex-start;
+    margin-top: 0px;
+
+    width: 300px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .profile-image {
+    width: 360px;
+    height: 400px;
+    margin-top: 0px;
+    align-self: flex-start;
+  }
+}
+
+.home-text-container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .home-text-container {
+    width: 40%;
+    margin-top: 56px;
+  }
+}
+.discovery-the-beauty-text {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #1f2027;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .discovery-the-beauty-text {
+    font-size: 17px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .discovery-the-beauty-text {
+    font-size: 20px;
+  }
+}
+.tropical-destinations-heading {
+  font-family: 'Roboto';
+  font-size: 24px;
+
+  font-weight: 700;
+  color: #1f2027;
+  margin-top: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .tropical-destinations-heading {
+    font-size: 33px;
+    margin-bottom: 0px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .tropical-destinations-heading {
+    font-size: 45px;
+  }
+}
+.for-student-text {
+  font-weight: normal;
+}
+
+.lorem-ipsum-text {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #1f2027;
+  font-weight: 400;
+}
+
+@media screen and (min-width: 768px) {
+  .lorem-ipsum-text {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .lorem-ipsum-text {
+    font-size: 18px;
+  }
+}
+.sign-up-button {
+  background: #f27a44;
+  border-width: 0px;
+  height: 34px;
+  width: 90px;
+  border-radius: 15px;
+  color: #fff;
+  font-size: 12px;
+  margin-top: 15px;
+}
+@media screen and (min-width: 768px) {
+  .sign-up-button {
+    height: 40px;
+    width: 120px;
+    border-radius: 17px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .sign-up-button {
+    height: 45px;
+    width: 130px;
+    border-radius: 20px;
+  }
+}

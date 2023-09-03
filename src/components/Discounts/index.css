@@ -1,0 +1,138 @@
+.student-discounts-container {
+  height: 110vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .student-discounts-container {
+    flex-direction: row;
+    padding: 30px;
+    height: 60vh;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .student-discounts-container {
+    justify-content: space-around;
+    height: 80vh;
+  }
+}
+.student-discounts-lists-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 13px;
+}
+
+@media screen and (min-width: 768px) {
+  .student-discounts-lists-container {
+    margin-top: 0px;
+  }
+}
+.discount-list-item {
+  font-family: 'Roboto';
+  font-size: 13px;
+  color: #000;
+}
+@media screen and (min-width: 768px) {
+  .discount-list-item {
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 1100px) {
+  .discount-list-item {
+    font-size: 16px;
+    font-weight: normal;
+  }
+}
+.discount-explore-more-button {
+  height: 35px;
+  width: 130px;
+  background-color: #f27a44;
+  border-width: 0px;
+  border-radius: 10px;
+  color: #fff;
+  font-family: 'Roboto';
+  font-size: 11px;
+  flex-shrink: 0;
+}
+
+.student-discount-description-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  max-width: 70%;
+}
+
+@media screen and (min-width: 768px) {
+  .student-discount-description-container {
+    width: 50%;
+    margin-top: 100px;
+  }
+}
+@media screen and (min-width: 1100px) {
+  .student-discount-description-container {
+    max-width: 40%;
+  }
+}
+.percent-text {
+  font-family: 'Inter';
+  font-size: 18px;
+  color: #1f2027;
+  line-height: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .percent-text {
+    font-size: 22px;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .percent-text {
+    font-size: 26px;
+  }
+}
+.student-discounts-availability-text {
+  font-family: 'Inter';
+  font-size: 30px;
+  line-height: 34px;
+  font-weight: bolder;
+  margin-top: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .student-discounts-availability-text {
+    font-size: 34px;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  .student-discounts-availability-text {
+    font-size: 40px;
+    line-height: 40px;
+  }
+}
+.get-ready-fun-text {
+  font-size: 24px;
+  font-weight: normal;
+}
+.student-discount-image {
+  height: 400px;
+  width: 90%;
+  align-self: center;
+  margin-top: 20px;
+}
+@media screen and (min-width: 768px) {
+  .student-discount-image {
+    width: 400px;
+    height: 430px;
+    align-self: flex-start;
+  }
+}
+@media screen and (min-width: 1100px) {
+  .student-discount-image {
+    width: 500px;
+  }
+}
